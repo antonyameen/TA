@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+  background-image: url(../imgs/pngtree-rainbow-curves-abstract-colorful-background-image_2164067.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+ 
+}
+body .profile {
+  width: 700px;
+  height: 350px;
+  position: absolute;
+  background-color:#9e593c;
+  top: 100px;
+  left: 200px;
+  text-align: right;
+}
+img,
+.info {
+  float: right;
+}
+.clear-fix {
+  clear: both;
+}
+img {
+  width: 10%;
+  border-radius: 50%;
+}
+.cont {
+  margin-top: 50px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+.info {
+  padding-right: 20px;
+  text-align: right;
+}
+.info-p {
+  padding-top: 10px;
+}
+.info-p2,
+span {
+  text-align: right;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+span{
+    color:yellow;
+ font-size: 22px;
+}
+.info-p2{
+    margin-bottom: 30px;
+}
